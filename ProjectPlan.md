@@ -1,21 +1,22 @@
-#Project Overview and Planning
+**Project Overview and Planning**
 
-User stories
+**User stories**
 
 1. As a user, I want to search for recipes, so that I can find new ideas for meals.
 2. As a user, I want to be able to update the number of servings, so that I can cook a meal for different number of people.
 3. As a user, I want to bookmark recipes, so that I can review them later.
 4. As a user, I want to be able to create my own recipes, so that I have them all organised in the same app.
 5. As a user, I want to be able to see my bookmarks and own recipes when I leave the app and come back later, so that I can close the app safely after cooking.
-   Features
-6. Search functionality
+   
+**Features**
+1. Search functionality
    o Input field to send request to API with searched keywords.
    o Display with pagination.
    o Display recipe with cooking time, serving and ingredients.
-7. Change servings functionality: update all ingredients according to current number of servings.
-8. Bookmarking functionality: display list of all bookmarked recipes.
-9. User can upload own recipes.
+2. Change servings functionality: update all ingredients according to current number of servings.
+3. Bookmarking functionality: display list of all bookmarked recipes.
+4. User can upload own recipes.
    o Use recipes will automatically be updated.
    o User can only see their recipes, not recipes from other users.
-10. Store bookmark data in the browser using local storage.
+5. Store bookmark data in the browser using local storage.
     o On page load, read saved bookmarks from local storage and display.
