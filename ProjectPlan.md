@@ -9,14 +9,14 @@
 5. As a user, I want to be able to see my bookmarks and own recipes when I leave the app and come back later, so that I can close the app safely after cooking.
    
 **Features**
-1. Search functionality
-   o Input field to send request to API with searched keywords.
-   o Display with pagination.
-   o Display recipe with cooking time, serving and ingredients.
+1. Search functionality.
+Input field to send request to API with searched keywords.
+-Display with pagination.
+-Display recipe with cooking time, serving and ingredients.
 2. Change servings functionality: update all ingredients according to current number of servings.
 3. Bookmarking functionality: display list of all bookmarked recipes.
 4. User can upload own recipes.
-   o Use recipes will automatically be updated.
-   o User can only see their recipes, not recipes from other users.
+-Use recipes will automatically be updated.
+-User can only see their recipes, not recipes from other users.
 5. Store bookmark data in the browser using local storage.
-    o On page load, read saved bookmarks from local storage and display.
+-On page load, read saved bookmarks from local storage and display.
